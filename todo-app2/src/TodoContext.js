@@ -22,16 +22,16 @@ function todoReducer(state, action) {
 const initialTodos = [
   {
     id: 1,
-    text: "아침 산책",
+    text: "아침 산책하기",
     done: true,
   },
   {
     id: 2,
-    text: "오늘의 뉴스 읽기",
+    text: "알고리즘 공부하기",
     done: true,
   },
-  { id: 3, text: "샌드위치 사 먹기", done: false },
-  { id: 4, text: "리액트 공부하기", done: false },
+  { id: 3, text: "리액트 공부하기", done: false },
+  { id: 4, text: "프로젝트 만들어보기", done: false },
 ];
 
 export function TodoProvider({ children }) {
